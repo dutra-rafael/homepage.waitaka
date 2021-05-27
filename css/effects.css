@@ -1,0 +1,45 @@
+/**********************************************************************************
+ * Rotate Card Horiz
+**********************************************************************************/
+#profile-card{
+  display: flex;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+}
+
+#profile-front{
+  transform: rotateY(180deg);
+}
+
+.flipper{
+  transform: rotateY(180deg);
+}
+
+.face{
+  width: 20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+}
+
+/*****************************************************************************
+ * Gray Scale
+ *****************************************************************************/
+
+ .social-network-img{
+   filter: grayscale(1);
+ }
+
+ .social-network-img:hover{
+    box-shadow: 0px 6px 25px 0px #000;
+    transition: 0.8s;
+    filter: none;
+    width: 45px;
+    height: 45px;
+ }
+
+ .card-circle:hover{
+   width: 12rem;
+ }

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Krub:400,700');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+/************************************************************************
+ * Project Default Colors
+ * color: #FBAF00
+ * color: #FFD639
+ * color: #B80018
+ * color: #003D1F
+ * color: #00140A
+ ************************************************************************
+
+
+/************************************************************************
+ * Semantics Tags
+ ***********************************************************************/
+a{
+  text-decoration: none;
+  color:#000;
+}
+
+a:hover{
+  color: #003D1F;
+}
+
+aside{
+  width: 20em;
+  height: 100%;
+ }
+
+
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+ }
+
+ 
+ main{
+   height: 70vh;
+   flex: 1;
+ }
+
+
+/*************************************************************************
+ * Personal Class
+ ************************************************************************/
+
+.banner {
+  margin: 0 auto;
+  width: 100%;
+  height: 40vh;
+ }
+
+ .body-section{
+  display: flex;
+  flex-direction: row;
+ }
+
+.card-profile{
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 22rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.card-profile > .card-img-circle{
+  background-color: #FFF;
+  border-radius: 100%;
+  box-shadow: 0px 10px 25px 3px;
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 25%;
+  width: 10rem;
+
+}
+
+.content-aside{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 3rem;
+}
+
+.sec-animate-svg{
+  align-items: center;
+  justify-content: end;
+}
+
+.social-network-img{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/*************************************************************************
+ *IDs Configurations
+ ************************************************************************/
+
+
+
+/*************************************************************************
+ * @Media Responsive Configurations
+ ************************************************************************/
+
+ @media screen and (max-width: 412px){ 
+   aside{
+     display: none;
+   }
+ }
